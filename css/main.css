@@ -1,0 +1,280 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .page .left {
+  overflow-y: scroll;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+body .page .left .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+body .page .left .name h2 {
+  margin-bottom: 0;
+}
+
+body .page .left .stud {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 165px;
+  margin-top: 0;
+  letter-spacing: 4px;
+}
+
+body .page .left .stud h2 {
+  margin-top: 0px;
+}
+
+body .page .left .info {
+  font-weight: lighter;
+  color: gray;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 165px;
+  margin-top: 40px;
+  line-height: 15px;
+}
+
+body .page .left .info span {
+  color: black;
+  font-weight: bold;
+}
+
+body .page .left .link ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+body .page .left .link ul li {
+  margin-left: 125px;
+  color: black;
+}
+
+body .page .left .link ul a {
+  color: gray;
+}
+
+body .page .left .about #abtspace {
+  height: 30px;
+}
+
+body .page .left .about h2 {
+  border-bottom: 2px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  width: 425px;
+  margin-left: 155px;
+  margin-top: 225px;
+  letter-spacing: 9px;
+}
+
+body .page .left .about h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+body .page .left .about .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 350px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 165px;
+  line-height: 35px;
+  color: gray;
+  margin-bottom: 145px;
+}
+
+body .page .left .skills {
+  margin-bottom: 155px;
+}
+
+body .page .left .skills #skillspace {
+  height: 30px;
+}
+
+body .page .left .skills h2 {
+  border-bottom: 2px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  width: 345px;
+  margin-left: 155px;
+  margin-top: 225px;
+  letter-spacing: 9px;
+}
+
+body .page .left .skills h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+body .page .left .skills ul {
+  margin-left: 155px;
+}
+
+body .page .left .skills ul li {
+  margin-bottom: 15px;
+}
+
+body .page .left .playlist {
+  margin-bottom: 155px;
+}
+
+body .page .left .playlist #listspace {
+  height: 1px;
+}
+
+body .page .left .playlist h2 {
+  border-bottom: 2px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  width: 345px;
+  margin-left: 155px;
+  margin-top: 225px;
+  letter-spacing: 9px;
+}
+
+body .page .left .playlist h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+body .page .left .playlist ul {
+  margin-left: 155px;
+}
+
+body .page .left .playlist ul li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+body .page .left .playlist ul li img {
+  height: 150px;
+}
+
+body .page .left .contact {
+  margin-bottom: 350px;
+  font-weight: lighter;
+  color: gray;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 165px;
+  margin-top: 40px;
+  line-height: 15px;
+}
+
+body .page .left .contact #contspace {
+  height: 30px;
+}
+
+body .page .left .contact h2 {
+  border-bottom: 2px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  width: 335px;
+  margin-left: 1px;
+  margin-top: 155px;
+  letter-spacing: 9px;
+}
+
+body .page .left .contact h2 span {
+  background: #fff;
+}
+
+body .page .left .contact span {
+  color: black;
+  font-weight: bold;
+}
+
+body .page .left .navbar {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page .left .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+body .page .left .navbar ul li {
+  margin-left: 50px;
+}
+
+body .page .left .navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body .page .left .navbar ul li a:hover {
+  color: #135343;
+}
+
+body .page .right {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 755px;
+  width: 900px;
+  background-color: rgba(211, 79, 79, 0.692);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page .right .peds {
+  border-radius: 80%;
+}
+/*# sourceMappingURL=main.css.map */
